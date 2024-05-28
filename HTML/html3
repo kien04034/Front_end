@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Câu 1: Tạo form Đăng ký tài khoản</h2>
+    <p><b>Yêu cầu:</b> Tạo form <b>Đăng ký tài khoản </b>như bên dưới.</p>
+    <form action="" autocomplete="on">
+        <label for="1a">Họ tên </label> <br>
+        <input type="text" name="name" id="1a" placeholder="Ví dụ : Lenava"> <br>
+        <label for="1b">Email</label> <br>
+        <input type="email" name="email" id="1b" placeholder="Ví dụ : lenava@gmail.com" required> <br>
+        <label for="1c">Mật Khẩu</label> <br>
+        <input type="password" name="password" id="1c" required> <br>
+        <br>
+        <button>Đăng kí</button>
+    </form>
+
+    <h2>Câu 2: Tạo form Đăng ký chi tiết</h2>
+    <p><b>Yêu cầu:</b> Tạo form <b>Đăng ký chi tiết</b> như bên dưới.</p>
+    <form action="" autocomplete="on">
+        <label for="2a">Họ tên </label> <br>
+        <input type="text" name="name" id="2a"><br>
+        <label for="2b">Email</label> <br>
+        <input type="email" name="email" id="2b" required> <br>
+        <label for="2c">Mật Khẩu</label> <br>
+        <input type="password" name="password" id="2c" required> <br>
+        <label for="2d">Xác nhận mật khẩu</label> <br>
+        <input type="password" name="repassword" id="2d" required> <br>
+
+        <label for="">Giới tính</label> <br>
+
+        <input type="radio" name="Gioi Tinh" id="2f" value="Nam">
+        <label for="2f">Nam</label> <br>
+
+        <input type="radio" name="Gioi Tinh" id="2g" value="Nữ">
+        <label for="2g">Nữ</label> <br>
+
+        <input type="radio" name="Gioi Tinh" id="2h" value="Khác">
+        <label for="2h">Khác</label> <br>
+        <Label>Quốc gia:</Label> <br>
+        <select name="Quoc gia">
+            <option value="VN">Việt Nam</option>
+            <option value="TL">Thái Lan</option>
+            <option value="NB">Nhật Bản</option>
+        </select>
+        <br> <br>
+        <button>Đăng kí</button>
+
+    </form>
+
+    <h2>Câu 3: Tạo form Đánh giá sản phẩm</h2>
+    <p><b>Yêu cầu:</b> Tạo form <b>Đánh giá sản phẩm </b>như bên dưới.</p>
+    <form action="" autocomplete="on" method="get">
+        <label for="3a">Tên sản phẩm:</label> <br>
+        <input type="text" name="Ten san pham" id="3a"> <br>
+        <label for="">Đánh giá</label><br>
+        <input type="radio" name="danhgia" id="3b">
+        <label for="3b">5 sao</label> <br>
+        <input type="radio" name="danhgia" id="3c">
+        <label for="3c">4 sao</label><br>
+        <input type="radio" name="danhgia" id="3d">
+        <label for="3d">3 sao</label><br>
+        <input type="radio" name="danhgia" id="3e">
+        <label for="3e">2 sao</label><br>
+        <input type="radio" name="danhgia" id="3f">
+        <label for="3f">1 sao</label><br>
+        <label for="3g">Đánh giá</label> <br>
+        <textarea rows="5" cols="20" name="" id="3g"></textarea> <br>
+        <br>
+        <button>Gửi đánh giá</button>
+    </form>
+    <h2>Câu 4: Tạo form Liên hệ</h2>
+    <p><b>Yêu cầu:</b> Tạo form <b>Liên hệ</b> như bên dưới.</p>
+    <form action="" autocomplete="on" method="get">
+        <label for="4a">Họ và tên</label><br>
+        <input type="text" name="name" id="4a"><br>
+        <label for="4b">Email</label><br>
+        <input type="email" name="mail" id="4b"><br>
+        <label for="4c">Nội dung tin nhắn:</label><br>
+        <textarea rows="5" cols="20" name="" id="4c"></textarea> <br> <br>
+        <button>Gửi tin nhắn</button>
+    </form>
+
+    <h2>Câu 5: Tạo form Đặt phòng khách sạn</h2>
+    <p><b>Yêu cầu:</b> Tạo form <b>Đặt phòng khách sạn</b> như bên dưới.</p>
+    <form action="" autocomplete="on" method="get">
+        <label for="5a">Họ và tên</label><br>
+        <input type="text" name="name" id="5a"><br>
+        <label for="5b">Email</label><br>
+        <input type="text" name="mail" id="5b"><br>
+        <label for="5c">Ngày nhận phòng:</label><br>
+        <input type="date" name="" id=""> <br>
+        <label for="5c">Ngày trả phòng:</label><br>
+        <input type="date" name="" id=""> <br>
+        <label for="">Loại phòng</label> <br>
+        <select name="" id="se5">
+            <option value="">Phòng thường</option>
+            <option value="">Phòng VIP</option>
+            <option value="">Phòng gia đình</option>
+        </select> <br>
+        <label for="">Yêu cầu đặc biệt:</label><br>
+        <textarea name="" id=""></textarea><br>
+        <br>
+        <button>Đặt Phòng</button>
+    </form>
+
+    <h2>Câu 6: Tạo form Tìm kiếm</h2>
+    <p><b>Yêu cầu:</b> Tạo form <b>Tìm kiếm </b>như bên dưới.</p>
+    <form action="" autocomplete="on">
+        <input type="text" name="Tu khoa" placeholder="Nhập từ khóa ..." required>
+        <button>Tìm kiếm</button>
+    </form>
+</body>
+
+</html>
